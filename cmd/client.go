@@ -1,6 +1,9 @@
 package cmd
 
-import "github.com/spf13/cobra"
+import (
+	"github.com/Autumn716/Plato/client"
+	"github.com/spf13/cobra"
+)
 
 func init() {
 	rootCmd.AddCommand(clientCmd)
@@ -12,5 +15,5 @@ var clientCmd = &cobra.Command{
 }
 
 func ClientHandle(cmd *cobra.Command, args []string) {
-
+	client.RunMain()
 }

@@ -2,10 +2,12 @@ module github.com/Autumn716/Plato
 
 go 1.18
 
-require github.com/spf13/cobra v1.8.1
+require (
+	github.com/gookit/color v1.5.4
+	github.com/spf13/cobra v1.8.1
+)
 
 require (
-	github.com/gookit/color v1.5.4 // indirect
 	github.com/mattn/go-runewidth v0.0.16 // indirect
 	github.com/nsf/termbox-go v1.1.1 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
