@@ -1,6 +1,6 @@
 module github.com/Autumn716/Plato
 
-go 1.18
+go 1.17
 
 require (
 	github.com/gookit/color v1.5.4
